@@ -1,0 +1,85 @@
+.tabela {
+	border: 1pt solid;	
+	width: 100%;
+	background: #F1F7FE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.login {
+	border: 1pt solid;	
+	background: #F1F7FE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.tabela td {
+	height: 30px;	
+}
+.tabela .titulo {
+	font-size: 11pt;
+	color: darkblue;
+	width: 200px;
+	text-align: right;
+	vertical-align: top;		
+}
+.tabela .campo {
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: left;	
+	vertical-align: top;
+}
+
+.corpo {
+	background: F1F7FE;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.apres {
+	background: #487BA8;
+	color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;	
+}
+.botao{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #16274E;
+	background-color: D3E5FF;
+	height: 20px;
+}
+a {
+	text-decoration: none;
+	color: #487BA8;
+}
+
+#msg {
+	margin: 0px auto;
+	width: 540px;
+	font-weight: bold;
+	padding: 0px;
+	color: red;
+	border: black dashed 1pt;
+	min-height: 40px;
+	background: lightyellow;
+}
+
+#erro {
+	margin: 0px auto;
+	width: 550px;
+	font-size: 11pt;
+	padding: 0px;
+}
+
+#erro ul {
+	/*list-style-type: none;*/
+	padding-left: 70px;
+	background-image: url("../img/erro.png");
+	background-repeat: no-repeat;
+	background-position: 5px 5px;	
+}
+
+.vermelho {
+	color:red;
+}
